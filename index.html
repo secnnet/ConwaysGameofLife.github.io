@@ -1,0 +1,77 @@
+<!-- This is the HTML5 doctype. It's a way to tell the browser what type of document to expect. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The charset attribute specifies the character encoding for the HTML document. -->
+    <meta charset="UTF-8">
+    <!-- The viewport meta tag makes your website look good on all devices and screen resolutions. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title element represents the document's title or name. -->
+    <title>Conway's Game of Life</title>
+    <!-- The link tag here is used to link an external stylesheet. -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- This is the header of the webpage. -->
+    <header>
+      <!-- This is a navigation menu. -->
+      <nav>
+        <ul>
+          <!-- These are the individual menu items. -->
+          <li>
+            <a href="#game">Game</a>
+          </li>
+          <li>
+            <a href="#instructions">Instructions</a>
+          </li>
+          <li>
+            <a href="#settings">Settings</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- This is the main content of the webpage. -->
+    <main class="container">
+      <!-- This section contains the game canvas. -->
+      <section>
+        <h1>Conway's Game of Life</h1>
+        <canvas id="game"></canvas>
+      </section>
+      <!-- This section contains the controls and settings for the game. -->
+      <section id="control-settings">
+        <h2>Controls and Settings:</h2>
+        <div class="controls">
+          <!-- These are the control buttons for the game. -->
+          <button id="start" role="button">Start</button>
+          <button id="pause" role="button">Pause</button>
+          <button id="reset" role="button">Reset</button>
+          <button id="step" role="button">Step</button>
+          <!-- This is the speed control for the game. -->
+          <div class="speed-control">
+            <label for="speed">Speed:</label>
+            <input type="range" id="speed" name="speed" min="1" max="10" value="5">
+          </div>
+        </div>
+        <!-- This is the settings control for the game. -->
+        <div class="settings">
+          <label for="grid-size">Grid Size:</label>
+          <input type="range" id="grid-size" name="grid-size" min="10" max="100" value="40">
+        </div>
+      </section>
+      <!-- This section provides instructions for the game. -->
+      <section class="instructions" id="instructions">
+        <h2>Instructions:</h2>
+        <p>Conway's Game of Life is a cellular automaton created by mathematician John Conway in 1970...</p>
+      </section>
+      <!-- This is the footer of the webpage. -->
+      <footer> Created by SecnNet <br>
+        <br>
+        <br>
+        <a href="https://github.com/YourGitHubUsername" target="_blank">GitHub</a>
+        <a href="https://twitter.com/YourTwitterUsername" target="_blank">Twitter</a>
+      </footer>
+    </main>
+    <!-- This script tag includes the JavaScript file for the game. -->
+    <script src="gameOfLife.js"></script>
+  </body>
+</html>

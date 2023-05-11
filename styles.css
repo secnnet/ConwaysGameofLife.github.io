@@ -1,0 +1,67 @@
+/* Define root variables for easier re-use and better readability */
+:root {
+  --main-bg-color: #eaeaea; /* Main background color */
+  --secondary-bg-color: #ffffff; /* Secondary background color */
+  --main-text-color: #333; /* Main text color */
+  --shadow-color: rgba(0, 0, 0, 0.2); /* Color for shadows */
+  --button-bg-color: #4caf50; /* Default button background color */
+  --button-hover-color: #45a049; /* Button color when mouse hovers over it */
+  --footer-link-color: #333; /* Footer link color */
+}
+
+/* Body styles */
+body {
+  font-family: "Poppins", sans-serif; /* Main font family for the body */
+  background: linear-gradient(
+    45deg,
+    var(--main-bg-color),
+    var(--secondary-bg-color)
+  ); /* Background gradient */
+}
+
+/* Container styles */
+.container {
+  max-width: 800px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+  background-color: var(--secondary-bg-color); /* Container background color */
+  border-radius: 5px; /* Rounded corners for the container */
+  box-shadow: 0 4px 8px 0 var(--shadow-color); /* Shadow effect */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+/* Heading 1 styles */
+h1 {
+  font-size: 48px; /* Font size */
+  font-weight: 600; /* Font weight */
+  color: var(--main-text-color); /* Text color */
+  text-align: center; /* Centered text */
+  text-shadow: 1px 1px var(--shadow-color); /* Text shadow effect */
+}
+
+/* Button styles */
+button {
+  background-color: var(--button-bg-color); /* Background color */
+  border: none; /* Remove default border */
+  color: white; /* Text color */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove text decoration */
+  display: inline-block; /* Display inline-block */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margins around the button */
+  cursor: pointer; /* Change cursor to pointer when hovering over the button */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 24px; /* Padding inside the button */
+  transition-duration: 0.4s; /* Transition duration for hover effect */
+  box-shadow: 0 4px 8px 0 var(--shadow-color); /* Shadow effect */
+}
+
+/* Button hover styles */
+button:hover {
+  background-color: var(
+    --button-hover-color
+  ); /* Change background color when mouse hovers over the button */
+}
