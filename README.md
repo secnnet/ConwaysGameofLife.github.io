@@ -4,7 +4,7 @@ This repository contains a simple yet interactive implementation of Conway's Gam
 
 Conway's Game of Life
 
-# # Features:
+## Features:
 
 Game board visualization.
 Controls to start, pause, reset, and step through the game.
@@ -13,12 +13,12 @@ Ability to adjust grid size.
 A gradient color scheme for live cells.
 Responsive design.
 
-# # How to Run:
+## How to Run:
 
 Clone this repository to your local machine using git clone https://github.com/secnnet/Conways-Game-of-Life.git.
 Open the index.html file in your web browser. Or visit https://secnnet.github.io/ConwaysGameofLife.github.io/ 
 
-# # How to Use:
+## How to Use:
 
 Start: Click on the 'Start' button to start the simulation.
 Pause: Click on the 'Pause' button to pause the simulation.
@@ -28,8 +28,8 @@ Speed: Adjust the speed of the simulation using the 'Speed' slider.
 Grid Size: Adjust the size of the grid using the 'Grid Size' slider.
 Canvas: Click on any cell in the canvas to toggle its state between alive (colored) and dead (white).
 
-# # License
+## License
 MIT
 
-# # Author
+## Author
 SecnNet
