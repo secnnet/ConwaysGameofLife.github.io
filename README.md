@@ -2,10 +2,6 @@
 
 This repository contains a simple yet interactive implementation of Conway's Game of Life, a cellular automaton devised by the British mathematician John Horton Conway in 1970. It's written using plain HTML, CSS, and JavaScript.
 
-Conway's Game of Life
-
-![image](https://github.com/secnnet/ConwaysGameofLife.github.io/assets/17622687/74ebf012-a03e-4948-9dbe-98efa7929076)
-
 ## Features:
 
 Game board visualization.
