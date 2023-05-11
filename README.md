@@ -4,6 +4,8 @@ This repository contains a simple yet interactive implementation of Conway's Gam
 
 Conway's Game of Life
 
+![image](https://github.com/secnnet/ConwaysGameofLife.github.io/assets/17622687/74ebf012-a03e-4948-9dbe-98efa7929076)
+
 ## Features:
 
 Game board visualization.
